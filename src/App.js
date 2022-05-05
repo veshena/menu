@@ -5,7 +5,7 @@ import Drinks from './pages/Drinks'
 import Checkout from './pages/Checkout'
 import Header from './components/Header'
 import { Routes, Route } from 'react-router-dom'
-import {useContext, useState} from 'react'
+import { useState } from 'react'
 import './App.css'
 
 
@@ -100,7 +100,6 @@ function App() {
   const [lunch, setLunch] = useState([])
   const [drinks, setDrinks] = useState([]);
 
-
   return (
     <div>
       <h1>LADY LISA'S KITCKEN</h1>
@@ -110,13 +109,43 @@ function App() {
       </div>
 
       <Routes>
-        <Route path='/' element={<Home aboutMe={about} />} />
-        <Route path='/breakfast' element={<Breakfast breakfastProps={breakfast} setBreakfastProps={setBreakfast} early={bfast} />} />
-        <Route path='/lunch' element={<Lunch lunchProps={lunch} setLunchProps={setLunch} noon={midDay} />} />
-        <Route path='/drinks' element={<Drinks drinksProps={drinks} setDrinksProps={setDrinks} drink={thristy} />} />
-        <Route path='/checkout' element={<Checkout breakfastProps={breakfast} setBreakfastProps={setBreakfast} lunchProps={lunch} setLunchProps={setLunch} drinksProps={drinks} setDrinksProps={setDrinks} />} />
-      </Routes>
+        <Route path='/'
+          element={<Home
+            aboutMe={about} />}
+        />
 
+        <Route path='/breakfast'
+          element={<Breakfast
+            breakfastProps={breakfast}
+            setBreakfastProps={setBreakfast}
+            early={bfast} />}
+        />
+
+        <Route path='/lunch'
+          element={<Lunch
+            lunchProps={lunch}
+            setLunchProps={setLunch}
+            noon={midDay} />}
+        />
+
+        <Route path='/drinks'
+          element={<Drinks
+            drinksProps={drinks}
+            setDrinksProps={setDrinks}
+            drink={thristy} />}
+        />
+
+        <Route path='/checkout'
+          element={<Checkout
+            breakfastProps={breakfast}
+            setBreakfastProps={setBreakfast}
+            lunchProps={lunch}
+            setLunchProps={setLunch}
+            drinksProps={drinks}
+            setDrinksProps={setDrinks}
+          />}
+        />
+      </Routes>
     </div>
   )
 }
