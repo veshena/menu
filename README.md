@@ -3,7 +3,7 @@
 Overview:
 I'm building a menu that consists of 5 pages and 1 component.
 
-Link to Heroku
+Link to Heroku  https://vee-menu.herokuapp.com
 
 Link to Github  https://github.com/veshena/menu
 
