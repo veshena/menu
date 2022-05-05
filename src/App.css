@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=IBM+Plex+Sans+Condensed:ital,wght@1,700&family=Permanent+Marker&family=Road+Rage&family=Rubik+Moonrocks&family=Sansita+Swashed:wght@900&family=Shizuru&family=Square+Peg&family=Syne+Mono&family=Updock&display=swap');
+
+body {
+    font-family: 'Water Brush', cursive;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGoitPERsMFg5_P9GEoUo2QsURcz2saQDlpdcVCTFI4lKdkhZI4kOvn3cMdmbsHEfGVA&usqp=CAU);
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bullets {
+    margin-left: 30em;
+    color: rgb(49, 27, 12);
+    font-size: 24px;
+    border: inset;
+    border-width: 20px 30px;
+    border-color: rgb(134, 117, 225);
+    border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 12px;
+    color: rgb(67, 31, 114);
+}
+h2 {
+    color: rgb(67, 31, 114);
+    padding: 12px;
+    font-size: 24px;
+    border: outset;
+    margin-right: 800px;
+    border-radius: 14px;
+    border-width: 10px 30px;
+    border-color: rgb(134, 117, 225);
+}
+h3 {
+    color: rgb(67, 31, 114);
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    font-size: 24px;
+    border: ridge;
+    border-radius: 40px;
+    border-width: 6px 20px;
+    border-color: rgb(134, 117, 225);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home {
+    border: ridge;
+    padding: 250px;
+    width: fit-content;
+    background-image: url(https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/30516581_1888315474535270_3494785751697063936_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ke2MkI8-O8kAX_jAqcZ&_nc_oc=AQm-SoJ-MXwQoTIsmM9COBqA99W12nplgU7edaMFpIDVn6SOVGi2QLySWjE7P_FCqOM&_nc_ht=scontent-lga3-2.xx&oh=00_AT9oNINuDmLRB87xVfOvH9rl-TFO0nidAX6j44thiPIJug&oe=629847C3);
+    background-size: cover;
+    border-color: rgb(134, 117, 225);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+p {
+    border: inset;
+    border-radius: 20px;
+    border-width: 10px 20px;
+    border-color: rgb(134, 117, 225);
+    color: rgb(67, 31, 114);
+    margin-left: 550px;
+    margin-bottom: 0px;
+    padding: 50px;
+    font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+    text-align: center;
+}
+.price {
+    text-align: end;
+}
+.btn {
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.btn:hover {
+    color: rgb(134, 117, 225);
+    cursor: grabbing;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
