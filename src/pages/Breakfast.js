@@ -10,7 +10,7 @@ const Breakfast = (props) => {
   return (
     <div>
       <main>
-        <h2>Breakfast Menu</h2>
+        <h2>Breakfast Menu 5am-10am</h2>
         {getUp.map((item) => {
 
           return (

@@ -2,69 +2,67 @@
 
 body {
     font-family: 'Water Brush', cursive;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGoitPERsMFg5_P9GEoUo2QsURcz2saQDlpdcVCTFI4lKdkhZI4kOvn3cMdmbsHEfGVA&usqp=CAU);
-    background-size: cover;
+    background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX2453787.jpg);
 }
 
 .bullets {
-    margin-left: 30em;
+    margin-left: 40em;
     color: rgb(49, 27, 12);
-    font-size: 24px;
+    font-size: 22px;
     border: inset;
-    border-width: 20px 30px;
-    border-color: rgb(134, 117, 225);
-    border-radius: 20px;
+    border-width: 10px 20px;
+    border-color: rgb(116, 142, 227);
+    border-radius: 10px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin: 0px;
-    padding: 12px;
-    color: rgb(67, 31, 114);
+    color: rgb(53, 31, 15);
 }
 h2 {
-    color: rgb(67, 31, 114);
-    padding: 12px;
-    font-size: 24px;
+    color: rgb(53, 31, 15);
+    padding: 8px;
+    font-size: 20px;
     border: outset;
-    margin-right: 800px;
+    margin-right: 50em;
     border-radius: 14px;
-    border-width: 10px 30px;
-    border-color: rgb(134, 117, 225);
+    border-width: 2px 20px;
+    border-color: rgb(244, 158, 75);
 }
 h3 {
-    color: rgb(67, 31, 114);
-    padding: 10px;
-    margin-bottom: 30px;
-    margin-left: 300px;
-    font-size: 24px;
+    color: rgb(53, 31, 15);
+    margin-left: 350px;
+    padding: 4px;
+    font-size: 20px;
     border: ridge;
-    border-radius: 40px;
-    border-width: 6px 20px;
-    border-color: rgb(134, 117, 225);
+    border-radius: 30px;
+    border-width: 10px 30px;
+    border-color: rgb(237, 99, 174);
 }
 
 .home {
     border: ridge;
-    padding: 250px;
+    padding: 200px;
     width: fit-content;
     background-image: url(https://scontent-lga3-2.xx.fbcdn.net/v/t1.6435-9/30516581_1888315474535270_3494785751697063936_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=ke2MkI8-O8kAX_jAqcZ&_nc_oc=AQm-SoJ-MXwQoTIsmM9COBqA99W12nplgU7edaMFpIDVn6SOVGi2QLySWjE7P_FCqOM&_nc_ht=scontent-lga3-2.xx&oh=00_AT9oNINuDmLRB87xVfOvH9rl-TFO0nidAX6j44thiPIJug&oe=629847C3);
     background-size: cover;
-    border-color: rgb(134, 117, 225);
-    border-radius: 20px;
+    border-color: rgb(167, 147, 47);
+    border-radius: 10px;
     background-repeat: no-repeat;
     margin-top: 0px;
+    margin-left: 150px;
 }
 p {
     border: inset;
-    border-radius: 20px;
-    border-width: 10px 20px;
-    border-color: rgb(134, 117, 225);
-    color: rgb(67, 31, 114);
-    margin-left: 550px;
-    margin-bottom: 0px;
-    padding: 50px;
+    border-radius: 10px;
+    border-width: 8px 2px;
+    border-color: rgb(241, 128, 94);
+    color: rgb(53, 31, 15);
+    margin-left: 20em;
+    margin-bottom: 10px;
+    padding: 30px;
     font-size: 20px;
 }
 
@@ -75,15 +73,15 @@ p {
     text-align: end;
 }
 .btn {
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 16px;
     background-color: transparent;
 }
 .btn:hover {
-    color: rgb(134, 117, 225);
-    cursor: grabbing;
+    color: rgb(237, 99, 174);
+    cursor: pointer;
 }
 
 

@@ -4,11 +4,11 @@ const Home = (props) => {
   return (
     <div>
       <main>
+      <div className="home"></div>
+      
         <p>
           {me}
         </p>
-
-        <div className="home"></div>
       </main>
     </div>
   )

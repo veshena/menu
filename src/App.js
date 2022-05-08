@@ -57,7 +57,7 @@ const midDay = [
     price: "$35.00"
   },
   {
-    title: "Stew Pork with Fried Rice, Macaroni Pie with Potato Salad",
+    title: "Stew Pork with Fried Rice, Macaroni Pie and Potato Salad",
     price: "$45.00"
   },
   {

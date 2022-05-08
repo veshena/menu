@@ -1,11 +1,16 @@
-import { useState } from "react";
 const Checkout = (props) => {
- 
-  const [checkout, setCheckout] = useState("");
-  const clear = () => {
-    console.log(clear)
-    setCheckout("");
-}
+
+
+
+  // const clear = (item) => {
+  //   // console.log("clear")
+  //   let itemIndex = props.breakfastProps.indexOf(item)
+  //   // console.log(breakfastItems)
+  //   props.breakfastProps.splice(itemIndex, 1)
+  //   props.setBreakfastProps(props.breakfastProps)
+
+  //   // let breakfastItems = [...props.breakfastProps]
+  // }
 
 
   return (
@@ -14,53 +19,53 @@ const Checkout = (props) => {
         <h2>Checkout</h2>
         <div className="checkout">
 
-            <div>
-              {props.breakfastProps.map((item) => {
+          <div>
+            {props.breakfastProps.map((item) => {
 
-                return (
-                  
-                  <p>
-                    {item}
-                    <button className="btn"
-                      onClick={clear}
-                    >Clear</button>
-                  </p>
+              return (
 
-                )
-              })}
-            </div>
+                <p>
+                  {item}
+                  {/* <button className="btn"
+                    onClick={() => clear(item)}
+                  >Clear</button> */}
+                </p>
 
-            <div>
-              {props.lunchProps.map((item) => {
+              )
+            })}
+          </div>
 
-                return (
+          <div>
+            {props.lunchProps.map((item) => {
 
-                  <p>
-                    {item}
-                    <button className="btn"
-                      // onClick={}
-                    >Clear</button>
-                  </p>
+              return (
 
-                )
-              })}
-            </div>
+                <p>
+                  {item}
+                  {/* <button className="btn"
+                      onClick={() => clear(item)}
+                    >Clear</button> */}
+                </p>
 
-            <div>
-              {props.drinksProps.map((item) => {
+              )
+            })}
+          </div>
 
-                return (
+          <div>
+            {props.drinksProps.map((item) => {
 
-                  <p>
-                    {item}
-                    <button className="btn"
-                      // onClick={}
-                    >Clear</button>
-                  </p>
+              return (
 
-                )
-              })}
-            </div>
+                <p>
+                  {item}
+                  {/* <button className="btn"
+                      onClick={() => clear(item)}
+                    >Clear</button> */}
+                </p>
+
+              )
+            })}
+          </div>
         </div>
       </main>
     </div>

@@ -10,7 +10,7 @@ const Lunch = (props) => {
   return (
     <div>
       <main>
-        <h2>Lunch Menu</h2>
+        <h2>Lunch Menu 11am-5pm</h2>
         {letsEat.map((item) => {
           return (
 
