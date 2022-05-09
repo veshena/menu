@@ -34,4 +34,4 @@ React components tree:
     Lunch
     Drinks
     Checkout
-Inside each page has a function that allows me to pass my props down and map through each array in order for the item name to show on the checkout page. I also added 2 types of buttons the first is an add to checkout which when clicked the item name shows on the checkout page then the last button is to clear the items out the checkout page
+Inside each page has a function that allows me to pass my props down and map through each array in order for the item name to show on the checkout page. I also added a button to add to checkout which when clicked the item name shows on the checkout page
